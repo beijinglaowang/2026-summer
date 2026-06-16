@@ -1,27 +1,27 @@
-# 2026 Summer
+# 2026 夏季中国行程
 
-A static website for the 2026 summer China trip itinerary.
+这是一个用于展示 2026 夏季中国旅行安排的静态网站。
 
-## Trip
+## 行程
 
-- Dates: July 31 to August 4, 2026
-- Route: Beijing South -> Huizhou Ancient City -> Chengkan -> Huangshan -> Hongcun -> Tunxi -> Nanchang
-- Format: single-page static website with day tabs, timeline details, lodging notes, budget snapshot, and prep checklist
+- 日期：2026 年 7 月 31 日至 8 月 4 日
+- 路线：北京南 → 徽州古城 → 呈坎 → 黄山 → 宏村 → 屯溪 → 南昌
+- 形式：单页静态网站，包含日期切换、时间线、住宿提醒、预算快照和出行准备清单
 
-## Run locally
+## 本地查看
 
-Open `index.html` directly in a browser, or serve the folder with any static web server.
+可以直接用浏览器打开 `index.html`，也可以用任意静态服务器启动这个文件夹。
 
 ```powershell
 python -m http.server 8000
 ```
 
-Then open `http://localhost:8000`.
+然后打开 `http://localhost:8000`。
 
-## Notes to verify closer to travel
+## 临近出发前需要复核
 
-- Train times and ticket availability
-- Attraction ticket prices
-- Huangshan cableway, peak, and West Sea Grand Canyon opening status
-- Chengkan and Hongcun fish lantern schedules
-- Weather and sunrise/sunset times for Huangshan
+- 高铁时间和余票
+- 景区门票价格
+- 黄山索道、峰顶和西海大峡谷开放情况
+- 呈坎和宏村鱼灯巡游排期
+- 黄山天气、日出和日落时间
